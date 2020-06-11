@@ -1,23 +1,49 @@
+body {
+  background-color: #8fbaeb;
+}
+
 #temps {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
 }
 
 #temp_change {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #PSM {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
 }
 
 #PSM_change {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  font-size: 20px;
+  background-color: transparent;
+  border-style: none;
 }
