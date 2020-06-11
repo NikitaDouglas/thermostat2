@@ -35,13 +35,7 @@ $(document).ready(function(){
 
 function updateTemp() {
   $("#Temperature").html(thermostat.currentTemp());
-  if (thermostat.energyUsage() === "Low usage") {
-    $("#Temperature").css("color", "green")
-  } else if (thermostat.energyUsage() === "Medium usage") {
-    $("#Temperature").css("color", "black")
-  } else {
-    $("#Temperature").css("color", "red")
-  }
+  $('#Temperature').attr('class', thermostat.energyUsage());
 }
 
 function updateExternalTemp() {
