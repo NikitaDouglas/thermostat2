@@ -44,3 +44,14 @@ function updateExternalTemp() {
     console.log(getWeather)
   });
 };
+
+postData();
+
+function postData() {
+  $.post('http://localhost:4567/temperature',
+    {
+      temperature: 9000,
+      status: 200
+    }
+  )
+}
